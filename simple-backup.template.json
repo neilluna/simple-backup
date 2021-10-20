@@ -1,0 +1,28 @@
+{
+    "archive": {
+        "directory": "/full/path/to/backup/dir",
+        "ownership": {
+            "user": "user",
+            "group": "group"
+        },
+        "permissions": {
+            "directory": "u+rwx,go-rwx",
+            "file": "u+rw-x,go-rwx"
+        }
+    },
+    "backup": {
+        "directories": [
+            "/full/path/to/dir1",
+            "/full/path/to/dir2"
+        ],
+        "files": [
+            "/full/path/to/file1",
+            "/full/path/to/file2"
+        ]
+    },
+    "messages": {
+        "send_in_color": false,
+        "send_to_syslog": false,
+        "verbose": false
+    }
+}
